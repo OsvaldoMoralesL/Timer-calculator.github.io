@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/Timer/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Contador</h2>
+        <div>
+            <button class="btn btn-primary" onclick="increment()">Incrementar</button>
+            <button class="btn btn-primary" onclick="decrement()">Decrementar</button>
+        
+        </div>
+        <h3 id="counter">0</h3>
+    
+        <h2>Temporizador</h2>
+        <input type="number" id="inputTime" class="form-control" placeholder="Tiempo en segundos">
+        <button class="btn btn-primary" id ="inicio" onclick="startTimer()">Iniciar</button>
+        <h3 id="timer">0</h3>
+    </div>
+
+<script src="/Timer/Timer.js"></script>
+</body>
+
+</html>
